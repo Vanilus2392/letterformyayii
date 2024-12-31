@@ -1,0 +1,206 @@
+html {
+    background: linear-gradient(to right, rgb(221, 99, 205), rgb(184, 214, 238));
+}
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.first_part {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 100%;
+    position: relative;
+    top: 90%;
+    bottom: 100%;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-size: medium;
+}
+div {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    position: relative;
+}
+
+.typewriter{
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}.p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+.letter1 {
+    border: 2px solid #9b8dc2; 
+    border-radius: 15px;       
+    width: 90%;             
+    max-width: 400px;          
+    height: auto;             
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    position: relative;
+    left: 10%;
+}
+.letter1:hover {
+    transform: scale(1.05);
+}
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    left: 500px;
+    top: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.pp1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    right: 550px;
+    top: 1100px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    } 
+}
+.pp2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    right: 550px;
+    top: 1100px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    } 
+}
+.pp3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-inline: auto;
+    position: relative;
+    right: 550px;
+    top: 1100px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(22) forwards;
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    } 
+}
+.for_pic2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    text-shadow: 50%;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    left: 130px;
+}
+.letter2 {
+    border: 2px solid #9b8dc2; 
+    border-radius: 15px;       
+    width: 100%;             
+    max-width: 400px;          
+    height: auto;             
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+    position: relative;
+    left: 45%;
+    bottom: -100px;
+}
+.letter2:hover {
+    transform: scale(1.05);
+}
+.heart1 {
+    width: 100px;
+    max-width: 100%;
+    position: relative;
+    bottom: 510px;
+    left: 300px;
+    z-index: 2;
+}
+.heart2 {
+    width: 90px;
+    max-width: 100%;
+    position: relative;
+    top: 250px;
+    left: 830px;
+    z-index: 2;
+}

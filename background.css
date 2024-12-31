@@ -1,0 +1,19 @@
+
+body {
+    background-color: #dd1717dc; /* Light gray background */
+    background-image: url('path/to/your/image.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+.header {
+    background-color: rgba(212, 185, 185, 0.8); /* Semi-transparent white */
+    text-align: center;
+    position: relative;
+    top: 2000;
+}
+
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: #101999; /* White text color */
+}
